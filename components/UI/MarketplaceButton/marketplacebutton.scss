@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 0.76em;
+  font-weight: 500;
+  color: #fff;
 
   &:hover {
     cursor: pointer;
@@ -20,11 +23,5 @@
     color: #fff;
     width: 26px;
     height: 26px;
-  }
-
-  p {
-    font-size: 0.76em;
-    font-weight: 500;
-    color: #fff;
   }
 }
