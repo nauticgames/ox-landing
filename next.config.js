@@ -2,8 +2,8 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: "/marketplace",
-        destination: "https://marketplace.oxsoccer.com",
+        source: "https://marketplace.oxsoccer.com",
+        destination: "/marketplace",
       },
     ];
   },
