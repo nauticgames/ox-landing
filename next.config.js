@@ -1,3 +1,10 @@
 module.exports = {
-  reactStrictMode: true,
-}
+  async rewrites() {
+    return [
+      {
+        source: "/marketplace",
+        destination: "https://marketplace.oxsoccer.com",
+      },
+    ];
+  },
+};
