@@ -12,13 +12,13 @@ const Menu = () => {
         </Link>
       </li>
       <li>
-        <a href="#">About the game</a>
+        <a href="#about">About the game</a>
       </li>
       <li>
-        <a href="#">Roadmap</a>
+        <a href="#roadmap">Roadmap</a>
       </li>
       <li>
-        <a href="#">Tokens</a>
+        <a href="#tokenomics">Tokens</a>
       </li>
     </ul>
   );

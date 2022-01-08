@@ -1,0 +1,97 @@
+.tokenomics__section {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+
+  .tokenomics__title {
+    padding-left: 5%;
+    width: 55%;
+    height: 120px;
+    background: linear-gradient(89.79deg, #1d3cb9 -7.11%, #c71c1c 102.42%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2),
+      inset -20px 0px 150px rgba(255, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.4em;
+      letter-spacing: 1px;
+      color: #ffffff;
+      text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .token__info {
+    position: relative;
+    width: 90%;
+    min-height: 550px;
+    background: linear-gradient(180.16deg, #2c45ca 0.14%, #0b184f 99.86%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 10%;
+    padding: 0 5% 0 15%;
+
+    h2 {
+      font-family: "Baloo 2";
+      font-weight: 600;
+      font-size: 3.6em;
+      line-height: 142px;
+      color: #ffffff;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 65px;
+      color: #ffffff;
+    }
+
+    .token__img {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      background: #ffffff;
+      box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+      left: -12%;
+      top: -5%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .oxs__distribution {
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-weight: 600;
+      font-size: 2.8em;
+      color: #545454;
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 1.3em;
+      color: #6e6e6e;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 90%;
+      object-fit: contain;
+      margin-top: 50px;
+    }
+  }
+}
