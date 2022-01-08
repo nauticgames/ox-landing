@@ -1,12 +1,15 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 const MarketplaceButton = () => {
   return (
-    <div className="marketbtn">
-      <Icon icon="fa-solid:shopping-basket" />
-      <p>Marketplace</p>
-    </div>
+    <Link href="https://marketplace.oxsoccer.com">
+      <a className="marketbtn" target="_blank" rel="noreferrer">
+        <Icon icon="fa-solid:shopping-basket" />
+        Marketplace
+      </a>
+    </Link>
   );
 };
 
