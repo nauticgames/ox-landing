@@ -11,7 +11,7 @@ const Tokenomics = () => {
         <div className="token__img">
           <img src="/assets/lunary.png" />
         </div>
-        <h2>LUNARY</h2>
+        <h2>LUNARY ($LUNY)</h2>
         <p>
           Lunary is the utility token of the OX ecosystem, it is an inflationary
           token, infinite, with burning methods, it will be used to enter the
@@ -25,7 +25,7 @@ const Tokenomics = () => {
         <div className="token__img">
           <img src="/assets/oxs.png" />
         </div>
-        <h2>OX SOCCER</h2>
+        <h2>OX SOCCER ($OXS)</h2>
         <p>
           OX soccer is the main token of the OX project and ecosystem, a token
           used especially for future governance, completely decentralizing
@@ -34,11 +34,11 @@ const Tokenomics = () => {
           in official tournaments will be with this token, and the best players
           will also be rewarded with this token
         </p>
-      </div>
-      <div className="oxs__distribution">
-        <h2>OX Soccer token distribution</h2>
-        <h3>300M total supply</h3>
-        <img src="/assets/oxs-graph.png" />
+        <div className="oxs__distribution">
+          <h2>OX Soccer token distribution</h2>
+          <h3>300M total supply</h3>
+          <img src="/assets/oxs-graph.png" />
+        </div>
       </div>
     </section>
   );
