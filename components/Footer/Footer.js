@@ -5,9 +5,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer__container">
-        <a href="/" className="footer__logo">
-          <img src="/assets/logo.png" />
-        </a>
+        <Link href="/">
+          <a className="footer__logo">
+            <img src="/assets/logo.png" />
+          </a>
+        </Link>
         <p className="footer__copy">2022 &copy; - OX Soccer</p>
         <div className="footer__links">
           <div className="links__column">

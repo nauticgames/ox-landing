@@ -5,11 +5,15 @@
 
   .tokenomics__title {
     padding-left: 5%;
-    width: 55%;
-    height: 120px;
-    background: linear-gradient(89.79deg, #1d3cb9 -7.11%, #c71c1c 102.42%);
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2),
-      inset -20px 0px 150px rgba(255, 0, 0, 0.3);
+    width: 60%;
+    height: 140px;
+    background: linear-gradient(
+      89.79deg,
+      #1d3cb9 -7.11%,
+      #6f025e 49.37%,
+      #dc3535 102.42%
+    );
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -26,9 +30,8 @@
   .token__info {
     position: relative;
     width: 90%;
-    min-height: 550px;
-    background: linear-gradient(180.16deg, #2c45ca 0.14%, #0b184f 99.86%);
-    border-radius: 20px;
+    min-height: 500px;
+    border-right: 6px solid #1d3cb9;
     display: flex;
     flex-direction: column;
     margin-top: 80px;
@@ -39,15 +42,15 @@
       font-family: "Baloo 2";
       font-weight: 600;
       font-size: 3.6em;
-      line-height: 142px;
-      color: #ffffff;
+      color: #1d3cb9;
+      margin-bottom: 20px;
     }
 
     p {
       font-weight: 400;
       font-size: 1.1em;
       line-height: 65px;
-      color: #ffffff;
+      color: #9f9f9f;
     }
 
     .token__img {
@@ -58,7 +61,6 @@
       box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.15);
       border-radius: 20px;
       left: -12%;
-      top: -5%;
 
       img {
         width: 100%;
@@ -68,12 +70,11 @@
     }
   }
   .oxs__distribution {
-    width: 90%;
-    margin: auto;
-    margin-top: 80px;
+    width: 80%;
+    // margin: auto;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     h2 {
       font-weight: 600;
@@ -89,7 +90,7 @@
     }
 
     img {
-      width: 90%;
+      width: 100%;
       object-fit: contain;
       margin-top: 50px;
     }
