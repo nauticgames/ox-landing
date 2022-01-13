@@ -1,0 +1,25 @@
+.section__title {
+  padding-bottom: 30px;
+  border-bottom: 3px solid #2f57f7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  h2 {
+    text-align: initial;
+    font-weight: 700;
+    font-size: 3.2em;
+    color: #f14f4f;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section__title {
+    justify-content: flex-start;
+    padding-bottom: 25px;
+
+    h2 {
+      font-size: 2em;
+    }
+  }
+}
