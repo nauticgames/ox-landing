@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="column links">
           <h2>Community</h2>
-          <Link href="https://discord.gg/rK7ZKDkz">
+          <Link href="https://discord.gg/GKDTKvVheQ">
             <a target="_blank" rel="noreferrer">
               Discord
             </a>
