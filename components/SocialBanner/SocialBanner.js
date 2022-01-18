@@ -15,7 +15,7 @@ const SocialBanner = () => {
         <div className="social__links">
           <h2>Join the community</h2>
           <div className="social__buttons">
-            <Link href="https://discord.gg/rK7ZKDkz">
+            <Link href="https://discord.gg/GKDTKvVheQ">
               <a target="_blank" rel="noreferrer">
                 <Icon icon="akar-icons:discord-fill" />
               </a>
