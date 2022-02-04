@@ -36,11 +36,7 @@
 
       .game__ui {
         width: 48%;
-
-        img {
-          width: 100%;
-          object-fit: contain;
-        }
+        position: relative;
       }
     }
 
@@ -56,10 +52,6 @@
         width: 48%;
       }
 
-      .passes__img {
-        padding-left: 5%;
-      }
-
       h2 {
         width: 48%;
         font-weight: 400;
@@ -68,9 +60,9 @@
         color: #7b7b7b;
 
         span {
-          font-size: 1.2em;
-          color: #474747;
-          font-weight: 600;
+          font-size: 1.3em;
+          color: #e95050;
+          font-weight: 700;
         }
       }
     }
@@ -92,11 +84,8 @@
 
       .ranking__img {
         width: 100%;
-
-        img {
-          width: 100%;
-          object-fit: contain;
-        }
+        height: 600px;
+        position: relative;
       }
     }
   }
@@ -159,6 +148,10 @@
         margin-top: 50px;
         padding-left: 5%;
         border-left: 3px solid #2f57f7;
+
+        .ranking__img {
+          height: 200px;
+        }
 
         h2 {
           font-size: 1.5em;

@@ -10,6 +10,7 @@ const Hero = () => {
           src="/assets/hero-grid.png"
           layout="fill"
           alt="Hero grid image"
+          quality={100}
         />
       </div>
       <div className="wrapped">
@@ -19,7 +20,8 @@ const Hero = () => {
             width={600}
             height={340}
             alt="Game logo"
-            quality="100"
+            quality={100}
+            priority
           />
         </div>
         <div className="hero__players">
@@ -28,8 +30,7 @@ const Hero = () => {
             height={350}
             width={350}
             alt="Players image"
-            quality="100"
-            layout="intrinsic"
+            quality={100}
           />
         </div>
         <h2 className="download__title">Play soon in</h2>
