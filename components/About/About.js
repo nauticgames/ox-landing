@@ -31,10 +31,10 @@ const About = () => {
         <div className="about__passes">
           <div className="passes__img">
             <Image
-              src="/assets/game-passesv2.png"
+              src="/assets/game-passes.png"
               layout="responsive"
-              width={583}
-              height={564}
+              width={1920}
+              height={1920}
               objectFit="contain"
               alt="Passes image"
               quality={100}
@@ -57,8 +57,6 @@ const About = () => {
             <Image
               src="/assets/game-ranking.png"
               layout="fill"
-              width={2770}
-              height={1401}
               objectFit="contain"
               alt="Ranking image"
               quality={100}
