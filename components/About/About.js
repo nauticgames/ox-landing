@@ -10,42 +10,59 @@ const About = () => {
         </div>
         <div className="about__game">
           <h2>
-            Compete against other players in a physics-based soccer game,
-            dominate the rankings and earn cripto, skins and more exchangeable
-            NFTs in the marketplace
+            Compete against other players in a physics based soccer game,
+            dominate the rankings and earn tokens on each win, skins and more
+            tradeable NFTs on market.
           </h2>
           <div className="game__ui">
-            <img src="/assets/game-ui.png" alt="Game ui" loading="lazy" />
+            <Image
+              src="/assets/game-ui.png"
+              alt="Game ui"
+              layout="responsive"
+              width={1024}
+              height={768}
+              objectFit="contain"
+              quality={100}
+              priority
+            />
           </div>
         </div>
 
         <div className="about__passes">
           <div className="passes__img">
             <Image
-              src="/assets/game-passes.png"
+              src="/assets/game-passesv2.png"
               layout="responsive"
+              width={583}
+              height={564}
               objectFit="contain"
-              width="100%"
-              height="100%"
               alt="Passes image"
-              loading="lazy"
+              quality={100}
+              priority
             />
           </div>
           <h2>
-            Get a pass, enter in competitive mode{" "}
+            Get a pass, enter competitive mode{" "}
             <span>1v1, 5v5 Solo/Duo or 5v5 with your team</span> and earn tokens
-            for your victories, every pass has a certain number of matchs
-            available, when you finished these matchs, the pass is destroys
+            for your wins, each pass has a certain amount of matches available,
+            when you finish these matches the pass runs out.
           </h2>
         </div>
 
         <div className="about__ranking">
-          <h2>Scale in ranking & earn more tokens for your victories</h2>
+          <h2>
+            Climb in the ranking and earn more tokens with your victories.
+          </h2>
           <div className="ranking__img">
-            <img
+            <Image
               src="/assets/game-ranking.png"
+              layout="fill"
+              width={2770}
+              height={1401}
+              objectFit="contain"
               alt="Ranking image"
-              loading="lazy"
+              quality={100}
+              priority
             />
           </div>
         </div>
