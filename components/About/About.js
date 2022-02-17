@@ -31,7 +31,7 @@ const About = () => {
         <div className="about__passes">
           <div className="passes__img">
             <Image
-              src="/assets/game-passes.png"
+              src="/assets/game-passes-v3.png"
               layout="responsive"
               width={1920}
               height={1920}
