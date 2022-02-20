@@ -2,6 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 import Image from "next/image";
+import { WithRightFade } from "../../hoc/WithFade";
 
 const Stadiums = () => {
   return (
@@ -29,11 +30,13 @@ const Stadiums = () => {
         </div>
         <div className="right">
           <div className="stadiums-img">
-            <img
-              src="/assets/stadiums.png"
-              alt="Stadiums image"
-              loading="lazy"
-            />
+            <WithRightFade>
+              <img
+                src="/assets/stadiums.png"
+                alt="Stadiums image"
+                loading="lazy"
+              />
+            </WithRightFade>
           </div>
         </div>
       </div>
