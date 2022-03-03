@@ -28,8 +28,8 @@ const About = () => {
                 src="/assets/game-ui.png"
                 alt="Game ui"
                 layout="responsive"
-                width={1024}
-                height={768}
+                width={2920}
+                height={2080}
                 objectFit="contain"
                 quality={100}
                 priority
@@ -42,9 +42,8 @@ const About = () => {
             <div className="passes__img">
               <Image
                 src="/assets/game-passes-v3.png"
-                layout="responsive"
                 width={1920}
-                height={1920}
+                height={1080}
                 objectFit="contain"
                 alt="Passes image"
                 quality={100}
@@ -71,8 +70,9 @@ const About = () => {
             <div className="ranking__img">
               <Image
                 src="/assets/game-ranking.png"
-                layout="fill"
                 objectFit="contain"
+                width={1920}
+                height={1080}
                 alt="Ranking image"
                 quality={100}
                 priority
