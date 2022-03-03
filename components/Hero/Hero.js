@@ -5,14 +5,13 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero__grid">
-        <Image
-          src="/assets/hero-grid.png"
-          layout="fill"
-          alt="Hero grid image"
-          quality={100}
-        />
-      </div>
+      <Image
+        src="/assets/hero-grid.png"
+        layout="fill"
+        alt="Hero grid image"
+        quality={100}
+        className="hero__grid"
+      />
       <div className="wrapped">
         <div className="hero__logo">
           <Image
@@ -27,8 +26,8 @@ const Hero = () => {
         <div className="hero__players">
           <Image
             src="/assets/hero-players.png"
-            height={350}
-            width={350}
+            height={300}
+            width={250}
             alt="Players image"
             quality={100}
           />
