@@ -21,7 +21,7 @@ const Header = () => {
           </label>
           <ul className={"header__menu " + (menuOpen && "show-menu")}>
             <li>
-              <Link href="https://docs.nauticgames.com/ox-soccer/">
+              <Link href="https://docs.nauticgames.com/">
                 <a target="_blank" rel="noreferrer">
                   Whitepaper
                 </a>
