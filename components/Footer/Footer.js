@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="column links">
           <h2>Game</h2>
-          <Link href="https://docs.nauticgames.com/ox-soccer">
+          <Link href="https://docs.nauticgames.com/">
             <a rel="noreferrer" target="_blank">
               Whitepaper
             </a>
