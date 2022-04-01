@@ -1,20 +1,16 @@
 .roadmap__section {
-  width: 100%;
-  margin-top: 100px;
-
   .roadmap__cards {
     width: 100%;
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 50px;
 
     .card {
       position: relative;
       width: 22%;
       min-height: 450px;
       min-width: 270px;
-      // border: 5px solid transparent;
       border-radius: 5px;
       background-image: radial-gradient(
           99.46% 63.03% at 50% 50%,
@@ -125,10 +121,10 @@
       .card {
         width: 100%;
         max-width: 320px;
-        margin: 0 auto 80px auto;
+        margin: 150px auto 0 auto;
 
-        &:last-of-type {
-          margin: 0 auto;
+        &:first-of-type {
+          margin-top: 50px;
         }
       }
     }

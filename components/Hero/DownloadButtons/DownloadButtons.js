@@ -13,9 +13,6 @@ const DownloadButtons = () => {
       <div>
         <Icon icon="bx:bxl-play-store" />
       </div>
-      <div>
-        <Icon icon="bi:playstation" />
-      </div>
     </div>
   );
 };

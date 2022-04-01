@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section className="about__section" id="about">
       <div className="wrapped">
-        <div className="about__title">
+        <div className="about__title section__title">
           <h1>About the game</h1>
         </div>
         <div className="about__game">

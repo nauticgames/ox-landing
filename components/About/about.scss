@@ -1,25 +1,5 @@
 .about__section {
-  width: 100%;
-  margin: auto;
-  margin-top: 100px;
-
   .wrapped {
-    .about__title {
-      padding-bottom: 30px;
-      border-bottom: 3px solid #2f57f7;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin-bottom: 80px;
-
-      h1 {
-        text-align: initial;
-        font-weight: 700;
-        font-size: 3.8em;
-        color: #f14f4f;
-      }
-    }
-
     .about__game {
       width: 100%;
       display: flex;
@@ -109,14 +89,6 @@
 @media screen and (max-width: 480px) {
   .about__section {
     .wrapped {
-      .about__title {
-        margin-bottom: 30px;
-
-        h1 {
-          font-size: 2em;
-        }
-      }
-
       .about__game,
       .about__passes {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
