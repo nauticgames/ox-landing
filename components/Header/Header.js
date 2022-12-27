@@ -43,7 +43,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <Link href="https://marketplace.oxsoccer.com">
+          <Link href={process.env.NEXT_PUBLIC_MARKETPLACE_URL}>
             <a className="marketbtn" target="_blank" rel="noreferrer">
               <Icon icon="fa-solid:shopping-basket" />
               Marketplace
